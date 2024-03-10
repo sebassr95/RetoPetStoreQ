@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Automatización Reto BonBonite</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c5492193a2494d57d0184f08c6616578287ef33209878ddceca6a7d0f4feab3d.html">Compra En El Aplicativo De Petstore</a></span>
+                > <span class="truncate-60"><a
+                    href="12917cf48ca6cdae6ce2d0572072e7d8b3f34be179599c8a752fc4220d1f84df.html">Compra exitosa mediante el tipo de animal </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-03-2024 11:18</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Compra En El Aplicativo De Petstore </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario<br />
+Quiero comprar animales en el aplicativo web<br />
+Para poder tener los animales deseados
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0097a32c154a739957f6edd03da1765fbfa9d1c27897abe56d294468bc88d1a7.html">Compraexitosa
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Compra exitosa mediante el tipo de animal
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que el usuario se encuentra en el home del aplicativo<br>Cuando el decide comprar un animal<br><table class='embedded'><thead><th>userId</th><th>password</th><th>animalType</th><th>productId</th><th>itemId</th><th>quantity</th><th>cardType</th><th>cardNumber</th><th>expiryDate</th><th>firstNameBillingAddress</th><th>lastNameBillingAddress</th><th>addresOneBillingAddress</th><th>addresTwoBillingAddress</th><th>cityBillingAddress</th><th>stateBillingAddress</th><th>zipBillingAddress</th><th>countryBillingAddress</th></thead><tbody><tr><td>&lt;userId&gt;</td><td>&lt;password&gt;</td><td>&lt;animalType&gt;</td><td>&lt;productId&gt;</td><td>&lt;itemId&gt;</td><td>&lt;quantity&gt;</td><td>&lt;cardType&gt;</td><td>&lt;cardNumber&gt;</td><td>&lt;expiryDate&gt;</td><td>&lt;firstNameBillingAddress&gt;</td><td>&lt;lastNameBillingAddress&gt;</td><td>&lt;addresOneBillingAddress&gt;</td><td>&lt;addresTwoBillingAddress&gt;</td><td>&lt;cityBillingAddress&gt;</td><td>&lt;stateBillingAddress&gt;</td><td>&lt;zipBillingAddress&gt;</td><td>&lt;countryBillingAddress&gt;</td></tr></tbody></table><br>Entonces deberia visualizar el mensaje de compra exitosa</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Example: {userId=sebasqvision2, password=Todo1199, animalType=FISH, productId=FI-FW-02, itemId=EST-21, quantity=5, cardType=MasterCard, cardNumber=4440 6542 2541 5245, expiryDate=12/2024, firstNameBillingAddress=Sebas, lastNameBillingAddress=Ruiz, addresOneBillingAddress=Calle 1, addresTwoBillingAddress=Calle 23223, cityBillingAddress=Itagui, stateBillingAddress=Los naranjos, zipBillingAddress=12345, countryBillingAddress=Colombia}" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Dado que el usuario se encuentra en el home del aplicativo" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Pepito abrir navegador" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Pepito opens the Pagina principal" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Pepito abrir navegador (completed)" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Dado que el usuario se encuentra en el home del aplicativo (completed)" width="1920"/>
+                <img src="3f72c1b075583e10f9497474848bc141844a7342e24d1aa6055035ee0adfa7df.png" title=" Cuando el decide comprar un animal
+| userId | password | animalType | productId | itemId | quantity | cardType | cardNumber | expiryDate | firstNameBillingAddress | lastNameBillingAddress | addresOneBillingAddress | addresTwoBillingAddress | cityBillingAddress | stateBillingAddress | zipBillingAddress | countryBillingAddress |
+| sebasqvision2 | Todo1199 | FISH | FI-FW-02 | EST-21 | 5 | MasterCard | 4440 6542 2541 5245 | 12/2024 | Sebas | Ruiz | Calle 1 | Calle 23223 | Itagui | Los naranjos | 12345 | Colombia |" width="1920"/>
+                <img src="3f72c1b075583e10f9497474848bc141844a7342e24d1aa6055035ee0adfa7df.png" title=" Pepito ingresa a la pantalla de autenticaci&oacute;n" width="1920"/>
+                <img src="3f72c1b075583e10f9497474848bc141844a7342e24d1aa6055035ee0adfa7df.png" title=" Pepito clicks on Boton para ingresar a pantalla de autenticacion" width="1920"/>
+                <img src="3f72c1b075583e10f9497474848bc141844a7342e24d1aa6055035ee0adfa7df.png" title=" Pepito ingresa a la pantalla de autenticaci&oacute;n (completed)" width="1920"/>
+                <img src="9e7928d7a196ad6d0e777d746ca5f7a047323087b2533bcd26699cff09d964a2.png" title=" Pepito ingresa los datos de autenticacion" width="1920"/>
+                <img src="9e7928d7a196ad6d0e777d746ca5f7a047323087b2533bcd26699cff09d964a2.png" title=" Pepito enters 'sebasqvision2' into Campo ingreso autenticacion" width="1920"/>
+                <img src="b31cfa60a8081cb132b3032526bfc6a91437a86b525a22e51640964850baf501.png" title=" Pepito enters 'Todo1199' into Campo ingreso autenticacion" width="1920"/>
+                <img src="f9e38121f933224bc33a37ecd78b992e969257059cfa8b633b13afd07fa87ac7.png" title=" Pepito clicks on Campo ingreso autenticacion" width="1920"/>
+                <img src="f9e38121f933224bc33a37ecd78b992e969257059cfa8b633b13afd07fa87ac7.png" title=" Pepito ingresa los datos de autenticacion (completed)" width="1920"/>
+                <img src="4cdab353179b950577e25928b1a79413a816d22af97ed6eecf5f8a30aebdf70c.png" title=" Pepito Selecciona el tipo de animal que quiere comprar" width="1920"/>
+                <img src="4cdab353179b950577e25928b1a79413a816d22af97ed6eecf5f8a30aebdf70c.png" title=" Pepito clicks on Bot&oacute;n tipo de animal" width="1920"/>
+                <img src="4cdab353179b950577e25928b1a79413a816d22af97ed6eecf5f8a30aebdf70c.png" title=" Pepito Selecciona el tipo de animal que quiere comprar (completed)" width="1920"/>
+                <img src="40d2fb42a3e5b28e5dfb2cd692a3ea9e12256182d485791103b357dd499b2635.png" title=" Pepito selecciona el animal que quiere comprar" width="1920"/>
+                <img src="40d2fb42a3e5b28e5dfb2cd692a3ea9e12256182d485791103b357dd499b2635.png" title=" Pepito clicks on Product ID del animal" width="1920"/>
+                <img src="40d2fb42a3e5b28e5dfb2cd692a3ea9e12256182d485791103b357dd499b2635.png" title=" Pepito selecciona el animal que quiere comprar (completed)" width="1920"/>
+                <img src="5676c0bd9c9fcfa87711c34aa0fff4cd3a2d51411860a6eaa06a90248e91a570.png" title=" Pepito agrega al carrito el animal" width="1920"/>
+                <img src="5676c0bd9c9fcfa87711c34aa0fff4cd3a2d51411860a6eaa06a90248e91a570.png" title=" Pepito clicks on Boton agregar al carrito" width="1920"/>
+                <img src="5676c0bd9c9fcfa87711c34aa0fff4cd3a2d51411860a6eaa06a90248e91a570.png" title=" Pepito agrega al carrito el animal (completed)" width="1920"/>
+                <img src="9f6847fbfe8b7ff4813ee13bd22dc3ff904b1c199d69bb065ccd7a21e7abe316.png" title=" Pepito confirma la cantidad del producto a comprar y procede con la compra" width="1920"/>
+                <img src="9f6847fbfe8b7ff4813ee13bd22dc3ff904b1c199d69bb065ccd7a21e7abe316.png" title=" Pepito enters '5' into Campo cantidad del producto seleccionado" width="1920"/>
+                <img src="905de60e0ed9637e9e6bedd71aff6da1df0532098c5e40e5564eac2b7357b698.png" title=" Pepito clicks on Boton para actualizar carrito" width="1920"/>
+                <img src="905de60e0ed9637e9e6bedd71aff6da1df0532098c5e40e5564eac2b7357b698.png" title=" Pepito confirma la cantidad del producto a comprar y procede con la compra (completed)" width="1920"/>
+                <img src="3a103c48a3e703048a2bf701ebeb80f1517cd2bb8f8aee36ec223f9db8823684.png" title=" Pepito Confirma los productos con la cantidad agregada y procede con la compra" width="1920"/>
+                <img src="3a103c48a3e703048a2bf701ebeb80f1517cd2bb8f8aee36ec223f9db8823684.png" title=" Pepito clicks on Boton para proceder con la compra" width="1920"/>
+                <img src="3a103c48a3e703048a2bf701ebeb80f1517cd2bb8f8aee36ec223f9db8823684.png" title=" Pepito Confirma los productos con la cantidad agregada y procede con la compra (completed)" width="1920"/>
+                <img src="2f574e01e2c13e0366c46a03e2dd4680e91dd4150effc6e889764ffdbb555043.png" title=" Pepito diligencia la informacion de pago para finalizar la compra" width="1920"/>
+                <img src="2f574e01e2c13e0366c46a03e2dd4680e91dd4150effc6e889764ffdbb555043.png" title=" Pepito clicks on Drop down list tipo de tarjeta" width="1920"/>
+                <img src="09a9c3d9812bbf207fa83bd5b3b4f42454b7b1fdba712783ae781d00d7fb60fc.png" title=" Pepito clicks on Opcion tipo de tarjeta en la lista" width="1920"/>
+                <img src="cb3499141428118985f48d9547486d8504287847b4e679787817051f2acfdbbe.png" title=" Pepito enters '4440 6542 2541 5245' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="b88077e5f15b84b4b9bb4a61e0648365bfddaa385209b83f9bdbe260c25859db.png" title=" Pepito enters '12/2024' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="5f2578fb336d2f7fd23afd50dc6972665dcd948b9577d3db254345645b9beea7.png" title=" Pepito enters 'Sebas' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="648f4047cd05f515d1a81da09c60494f92db8abb5c7996edc8adfa4537aad556.png" title=" Pepito enters 'Ruiz' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="cc1e94c272a358e727f211fd85d19ffd847c965b22b1ed0150345121e5683007.png" title=" Pepito enters 'Calle 1' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="b2861474c4cb73614810c6c434e831927ffb5d788c9ed6c62fedcd468347a8e2.png" title=" Pepito enters 'Calle 23223' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="7ee064fe2c8734a556343fb467a16ddab22fbfbd55483bde4c2480d7dfc7ef34.png" title=" Pepito enters 'Itagui' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="894534285a419e7dd7aca5a2f365ac31c3b913bb15afaee6a54bb7a0d38565fa.png" title=" Pepito enters 'Los naranjos' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="ac45d7a424ef7e81fc6ee16239e33414e597f92ae44aeb132ae6505213bfda5c.png" title=" Pepito enters '12345' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="0fb61e186b092f0f6e3eedd6f9b496264f118fd973d3cfc10214be7bd5235e1e.png" title=" Pepito enters 'Colombia' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="639a497582ad82294865fb2bf081f969bec684c0af612b4bae6de0f1fcd36802.png" title=" Pepito clicks on Boton para proceder con el pago" width="1920"/>
+                <img src="639a497582ad82294865fb2bf081f969bec684c0af612b4bae6de0f1fcd36802.png" title=" Pepito diligencia la informacion de pago para finalizar la compra (completed)" width="1920"/>
+                <img src="51649d862a09fad4f0760b69a582a3cf6d178e1624d131c7a1fc1dc59662d427.png" title=" Pepito confirma los datos de facturacion" width="1920"/>
+                <img src="51649d862a09fad4f0760b69a582a3cf6d178e1624d131c7a1fc1dc59662d427.png" title=" Pepito clicks on Boton para confirmar pago" width="1920"/>
+                <img src="51649d862a09fad4f0760b69a582a3cf6d178e1624d131c7a1fc1dc59662d427.png" title=" Pepito confirma los datos de facturacion (completed)" width="1920"/>
+                <img src="51649d862a09fad4f0760b69a582a3cf6d178e1624d131c7a1fc1dc59662d427.png" title=" Cuando el decide comprar un animal
+| userId | password | animalType | productId | itemId | quantity | cardType | cardNumber | expiryDate | firstNameBillingAddress | lastNameBillingAddress | addresOneBillingAddress | addresTwoBillingAddress | cityBillingAddress | stateBillingAddress | zipBillingAddress | countryBillingAddress |
+| sebasqvision2 | Todo1199 | FISH | FI-FW-02 | EST-21 | 5 | MasterCard | 4440 6542 2541 5245 | 12/2024 | Sebas | Ruiz | Calle 1 | Calle 23223 | Itagui | Los naranjos | 12345 | Colombia | (completed)" width="1920"/>
+                <img src="51649d862a09fad4f0760b69a582a3cf6d178e1624d131c7a1fc1dc59662d427.png" title=" Entonces deberia visualizar el mensaje de compra exitosa" width="1920"/>
+                <img src="51649d862a09fad4f0760b69a582a3cf6d178e1624d131c7a1fc1dc59662d427.png" title=" Then se presenta mensaje compra exitosa" width="1920"/>
+                <img src="51649d862a09fad4f0760b69a582a3cf6d178e1624d131c7a1fc1dc59662d427.png" title=" Entonces deberia visualizar el mensaje de compra exitosa (completed)" width="1920"/>
+                <img src="51649d862a09fad4f0760b69a582a3cf6d178e1624d131c7a1fc1dc59662d427.png" title=" Example: {userId=sebasqvision2, password=Todo1199, animalType=FISH, productId=FI-FW-02, itemId=EST-21, quantity=5, cardType=MasterCard, cardNumber=4440 6542 2541 5245, expiryDate=12/2024, firstNameBillingAddress=Sebas, lastNameBillingAddress=Ruiz, addresOneBillingAddress=Calle 1, addresTwoBillingAddress=Calle 23223, cityBillingAddress=Itagui, stateBillingAddress=Los naranjos, zipBillingAddress=12345, countryBillingAddress=Colombia} (completed)" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Example: {userId=sebasqvision2, password=Todo1199, animalType=DOGS, productId=K9-DL-01, itemId=EST-9, quantity=1, cardType=American Express, cardNumber=9999 1111 4444 6666, expiryDate=04/2028, firstNameBillingAddress=Aristoteles, lastNameBillingAddress=Marcotulio, addresOneBillingAddress=Diagonal 20 num 32-33, addresTwoBillingAddress=Transversal 23 num 11, cityBillingAddress=Medellin, stateBillingAddress=Robledo, zipBillingAddress=9999, countryBillingAddress=Colombia}" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Dado que el usuario se encuentra en el home del aplicativo" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Pepito abrir navegador" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Pepito opens the Pagina principal" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Pepito abrir navegador (completed)" width="1920"/>
+                <img src="66f8f19579f9a918a4f98229a34a1f16898876f731f145f99cc45d511dd5f5d8.png" title=" Dado que el usuario se encuentra en el home del aplicativo (completed)" width="1920"/>
+                <img src="3f72c1b075583e10f9497474848bc141844a7342e24d1aa6055035ee0adfa7df.png" title=" Cuando el decide comprar un animal
+| userId | password | animalType | productId | itemId | quantity | cardType | cardNumber | expiryDate | firstNameBillingAddress | lastNameBillingAddress | addresOneBillingAddress | addresTwoBillingAddress | cityBillingAddress | stateBillingAddress | zipBillingAddress | countryBillingAddress |
+| sebasqvision2 | Todo1199 | DOGS | K9-DL-01 | EST-9 | 1 | American Express | 9999 1111 4444 6666 | 04/2028 | Aristoteles | Marcotulio | Diagonal 20 num 32-33 | Transversal 23 num 11 | Medellin | Robledo | 9999 | Colombia |" width="1920"/>
+                <img src="3f72c1b075583e10f9497474848bc141844a7342e24d1aa6055035ee0adfa7df.png" title=" Pepito ingresa a la pantalla de autenticaci&oacute;n" width="1920"/>
+                <img src="3f72c1b075583e10f9497474848bc141844a7342e24d1aa6055035ee0adfa7df.png" title=" Pepito clicks on Boton para ingresar a pantalla de autenticacion" width="1920"/>
+                <img src="3f72c1b075583e10f9497474848bc141844a7342e24d1aa6055035ee0adfa7df.png" title=" Pepito ingresa a la pantalla de autenticaci&oacute;n (completed)" width="1920"/>
+                <img src="9e7928d7a196ad6d0e777d746ca5f7a047323087b2533bcd26699cff09d964a2.png" title=" Pepito ingresa los datos de autenticacion" width="1920"/>
+                <img src="9e7928d7a196ad6d0e777d746ca5f7a047323087b2533bcd26699cff09d964a2.png" title=" Pepito enters 'sebasqvision2' into Campo ingreso autenticacion" width="1920"/>
+                <img src="b31cfa60a8081cb132b3032526bfc6a91437a86b525a22e51640964850baf501.png" title=" Pepito enters 'Todo1199' into Campo ingreso autenticacion" width="1920"/>
+                <img src="f9e38121f933224bc33a37ecd78b992e969257059cfa8b633b13afd07fa87ac7.png" title=" Pepito clicks on Campo ingreso autenticacion" width="1920"/>
+                <img src="f9e38121f933224bc33a37ecd78b992e969257059cfa8b633b13afd07fa87ac7.png" title=" Pepito ingresa los datos de autenticacion (completed)" width="1920"/>
+                <img src="bbe05b49ceac140ae5c4dc30a82e0d8465b8fcc35089c8d1d359f01f2130c297.png" title=" Pepito Selecciona el tipo de animal que quiere comprar" width="1920"/>
+                <img src="bbe05b49ceac140ae5c4dc30a82e0d8465b8fcc35089c8d1d359f01f2130c297.png" title=" Pepito clicks on Bot&oacute;n tipo de animal" width="1920"/>
+                <img src="bbe05b49ceac140ae5c4dc30a82e0d8465b8fcc35089c8d1d359f01f2130c297.png" title=" Pepito Selecciona el tipo de animal que quiere comprar (completed)" width="1920"/>
+                <img src="a10271460fc2aafc55d00108244dfdd435c4603eb00d3e6c2751c79293ab89b3.png" title=" Pepito selecciona el animal que quiere comprar" width="1920"/>
+                <img src="a10271460fc2aafc55d00108244dfdd435c4603eb00d3e6c2751c79293ab89b3.png" title=" Pepito clicks on Product ID del animal" width="1920"/>
+                <img src="a10271460fc2aafc55d00108244dfdd435c4603eb00d3e6c2751c79293ab89b3.png" title=" Pepito selecciona el animal que quiere comprar (completed)" width="1920"/>
+                <img src="9e6ba9a4443305593a80d835568656bc0ec3864a8eb619d23484c219e00d6d46.png" title=" Pepito agrega al carrito el animal" width="1920"/>
+                <img src="9e6ba9a4443305593a80d835568656bc0ec3864a8eb619d23484c219e00d6d46.png" title=" Pepito clicks on Boton agregar al carrito" width="1920"/>
+                <img src="9e6ba9a4443305593a80d835568656bc0ec3864a8eb619d23484c219e00d6d46.png" title=" Pepito agrega al carrito el animal (completed)" width="1920"/>
+                <img src="f40e36b2c8c2c6a77c50e2fc1ee8a577e5149609c3ae09b3256bf5c1dc113770.png" title=" Pepito confirma la cantidad del producto a comprar y procede con la compra" width="1920"/>
+                <img src="f40e36b2c8c2c6a77c50e2fc1ee8a577e5149609c3ae09b3256bf5c1dc113770.png" title=" Pepito enters '1' into Campo cantidad del producto seleccionado" width="1920"/>
+                <img src="9e6ba9a4443305593a80d835568656bc0ec3864a8eb619d23484c219e00d6d46.png" title=" Pepito clicks on Boton para actualizar carrito" width="1920"/>
+                <img src="9e6ba9a4443305593a80d835568656bc0ec3864a8eb619d23484c219e00d6d46.png" title=" Pepito confirma la cantidad del producto a comprar y procede con la compra (completed)" width="1920"/>
+                <img src="3a103c48a3e703048a2bf701ebeb80f1517cd2bb8f8aee36ec223f9db8823684.png" title=" Pepito Confirma los productos con la cantidad agregada y procede con la compra" width="1920"/>
+                <img src="3a103c48a3e703048a2bf701ebeb80f1517cd2bb8f8aee36ec223f9db8823684.png" title=" Pepito clicks on Boton para proceder con la compra" width="1920"/>
+                <img src="3a103c48a3e703048a2bf701ebeb80f1517cd2bb8f8aee36ec223f9db8823684.png" title=" Pepito Confirma los productos con la cantidad agregada y procede con la compra (completed)" width="1920"/>
+                <img src="2f574e01e2c13e0366c46a03e2dd4680e91dd4150effc6e889764ffdbb555043.png" title=" Pepito diligencia la informacion de pago para finalizar la compra" width="1920"/>
+                <img src="2f574e01e2c13e0366c46a03e2dd4680e91dd4150effc6e889764ffdbb555043.png" title=" Pepito clicks on Drop down list tipo de tarjeta" width="1920"/>
+                <img src="af595b06a08514a3adf8c02ee39966f9718969203567544059499f56b8f926e9.png" title=" Pepito clicks on Opcion tipo de tarjeta en la lista" width="1920"/>
+                <img src="18ad9459296a0e452569bd0753835cccd85b462af00d37976149b9615d28e9f1.png" title=" Pepito enters '9999 1111 4444 6666' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="c2354746ef6580e5c074bcb66b87d4ee1dfff6613f73445ed997467763eb1215.png" title=" Pepito enters '04/2028' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="a751571f1732d08b8e845b3bc6386df5418f8235de0e62aa5a4e210bc46883cf.png" title=" Pepito enters 'Aristoteles' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="d28a531b287894960cc2c2795a5789a3212bb606c0d65e722a313588c40625ca.png" title=" Pepito enters 'Marcotulio' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="380f7777dd39c9139921d35a12407c5c37c5e8c10b7341a394f6666e1c9c08d9.png" title=" Pepito enters 'Diagonal 20 num 32-33' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="b09308f7e05f50afbf440458b87de053ef3eb1d221394f71b41e574d6117b382.png" title=" Pepito enters 'Transversal 23 num 11' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="adc29a11146b217bf299370a7410c76830d08b430c8de39abb461dac77b94b0a.png" title=" Pepito enters 'Medellin' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="d7a4103ab41545d7801c990a7f71fc8fb93275bff644f7b8fa0e4ce5fc7afff3.png" title=" Pepito enters 'Robledo' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="14d00881cdf81a515decceaea45737fa32920285fd0c6ed78cbd4e2c9df93f1b.png" title=" Pepito enters '9999' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="f40eded907333357b426080fa860b6e1138504a61b4d8ec7d0fb1372c8f5f9a5.png" title=" Pepito enters 'Colombia' into Campo ingreso informacion facturacion" width="1920"/>
+                <img src="b700cecf6191a6bcab1286fedcfbe8923b32407d5de0b267f528460fee256a81.png" title=" Pepito clicks on Boton para proceder con el pago" width="1920"/>
+                <img src="b700cecf6191a6bcab1286fedcfbe8923b32407d5de0b267f528460fee256a81.png" title=" Pepito diligencia la informacion de pago para finalizar la compra (completed)" width="1920"/>
+                <img src="f84a2cda8b924ab511a4d2de796796d74cb2d5cb18cfbab7ff610049d85a89ff.png" title=" Pepito confirma los datos de facturacion" width="1920"/>
+                <img src="f84a2cda8b924ab511a4d2de796796d74cb2d5cb18cfbab7ff610049d85a89ff.png" title=" Pepito clicks on Boton para confirmar pago" width="1920"/>
+                <img src="f84a2cda8b924ab511a4d2de796796d74cb2d5cb18cfbab7ff610049d85a89ff.png" title=" Pepito confirma los datos de facturacion (completed)" width="1920"/>
+                <img src="f84a2cda8b924ab511a4d2de796796d74cb2d5cb18cfbab7ff610049d85a89ff.png" title=" Cuando el decide comprar un animal
+| userId | password | animalType | productId | itemId | quantity | cardType | cardNumber | expiryDate | firstNameBillingAddress | lastNameBillingAddress | addresOneBillingAddress | addresTwoBillingAddress | cityBillingAddress | stateBillingAddress | zipBillingAddress | countryBillingAddress |
+| sebasqvision2 | Todo1199 | DOGS | K9-DL-01 | EST-9 | 1 | American Express | 9999 1111 4444 6666 | 04/2028 | Aristoteles | Marcotulio | Diagonal 20 num 32-33 | Transversal 23 num 11 | Medellin | Robledo | 9999 | Colombia | (completed)" width="1920"/>
+                <img src="f84a2cda8b924ab511a4d2de796796d74cb2d5cb18cfbab7ff610049d85a89ff.png" title=" Entonces deberia visualizar el mensaje de compra exitosa" width="1920"/>
+                <img src="f84a2cda8b924ab511a4d2de796796d74cb2d5cb18cfbab7ff610049d85a89ff.png" title=" Then se presenta mensaje compra exitosa" width="1920"/>
+                <img src="f84a2cda8b924ab511a4d2de796796d74cb2d5cb18cfbab7ff610049d85a89ff.png" title=" Entonces deberia visualizar el mensaje de compra exitosa (completed)" width="1920"/>
+                <img src="f84a2cda8b924ab511a4d2de796796d74cb2d5cb18cfbab7ff610049d85a89ff.png" title=" Example: {userId=sebasqvision2, password=Todo1199, animalType=DOGS, productId=K9-DL-01, itemId=EST-9, quantity=1, cardType=American Express, cardNumber=9999 1111 4444 6666, expiryDate=04/2028, firstNameBillingAddress=Aristoteles, lastNameBillingAddress=Marcotulio, addresOneBillingAddress=Diagonal 20 num 32-33, addresTwoBillingAddress=Transversal 23 num 11, cityBillingAddress=Medellin, stateBillingAddress=Robledo, zipBillingAddress=9999, countryBillingAddress=Colombia} (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.81</span>
+</div>
+</body>
+</html>

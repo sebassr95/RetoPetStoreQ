@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Registro en el aplicativo de PetStore","Registro exitoso","SUCCESS","2024-03-10T11:20:52.802-05:00[America/Bogota]","0.0","20.64"
+"Registro en el aplicativo de PetStore","Registro fallido usuario ya existe","SUCCESS","2024-03-10T11:21:13.441-05:00[America/Bogota]","0.0","21.44"
+"Registro en el aplicativo de PetStore","Registro fallido con datos incompletos","SUCCESS","2024-03-10T11:21:34.892-05:00[America/Bogota]","0.0","41.05"

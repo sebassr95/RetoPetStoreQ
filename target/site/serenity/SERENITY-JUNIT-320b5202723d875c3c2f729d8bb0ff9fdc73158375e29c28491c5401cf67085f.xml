@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Autenticacion en el aplicativo de PetStore" skipped="0" tests="3" time="40.32" timestamp="2024-03-10 11:17:57"><testcase name="Autenticacion exitosa"/><testcase name="Autenticación fallida usuario no existe"/><testcase name="Autenticación fallida clave de usuario incorrecta"/></testsuite>

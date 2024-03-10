@@ -1,0 +1,14 @@
+co/com/qvision/petstore/stepdefinitions/registrarusuario/RegistrarUsuarioStep.java
+ co.com.qvision.petstore.stepdefinitions.registrarusuario.RegistrarUsuarioStep
+co/com/qvision/petstore/runners/autenticacion/AutenticacionUsuarioRunner.java
+ co.com.qvision.petstore.runners.autenticacion.AutenticacionUsuarioRunner
+co/com/qvision/petstore/stepdefinitions/Hooks.java
+ co.com.qvision.petstore.stepdefinitions.Hooks
+co/com/qvision/petstore/stepdefinitions/compraranimal/ComprarAnimalStep.java
+ co.com.qvision.petstore.stepdefinitions.compraranimal.ComprarAnimalStep
+co/com/qvision/petstore/runners/registro/RegistrarUsuarioRunner.java
+ co.com.qvision.petstore.runners.registro.RegistrarUsuarioRunner
+co/com/qvision/petstore/stepdefinitions/autenticacion/AutenticacionUsuarioStep.java
+ co.com.qvision.petstore.stepdefinitions.autenticacion.AutenticacionUsuarioStep
+co/com/qvision/petstore/runners/compras/ComprarAnimalRunner.java
+ co.com.qvision.petstore.runners.compras.ComprarAnimalRunner

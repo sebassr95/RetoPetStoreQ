@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Compra en el aplicativo de PetStore" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-03-10T16:18:41" hostname="DESKTOP-CIJ4G6F" time="118.289">
+  <properties/>
+  <testcase name="Compra exitosa mediante el tipo de animal" classname="Compra en el aplicativo de PetStore" time="29.366"/>
+  <testcase name="Compra exitosa mediante el tipo de animal" classname="Compra en el aplicativo de PetStore" time="29.437"/>
+  <testcase name="Compra exitosa mediante la busqueda del nombre del animal" classname="Compra en el aplicativo de PetStore" time="30.976"/>
+  <testcase name="Compra fallida - agregar una cantidad de 0 productos del animal seleccionado" classname="Compra en el aplicativo de PetStore" time="15.307"/>
+  <testcase name="Remover el producto agregado en el carrito de compras" classname="Compra en el aplicativo de PetStore" time="13.123"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en el home del aplicativo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito opens the Pagina principal
+mar 10, 2024 11:18:41 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disk-cache-dir=null,--dis..., goog:chromeOptions: {args: [--disk-cache-dir=null, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --always-authorize-plugins, --disable-extensions, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 39788
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 10, 2024 11:18:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando el decide comprar un animal
+| userId | password | animalType | productId | itemId | quantity | cardType | cardNumber | expiryDate | firstNameBillingAddress | lastNameBillingAddress | addresOneBillingAddress | addresTwoBillingAddress | cityBillingAddress | stateBillingAddress | zipBillingAddress | countryBillingAddress |
+| sebasqvision2 | Todo1199 | FISH | FI-FW-02 | EST-21 | 5 | MasterCard | 4440 6542 2541 5245 | 12/2024 | Sebas | Ruiz | Calle 1 | Calle 23223 | Itagui | Los naranjos | 12345 | Colombia |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa a la pantalla de autenticación
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para ingresar a pantalla de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa los datos de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'sebasqvision2' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Todo1199' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito Selecciona el tipo de animal que quiere comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Botón tipo de animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito selecciona el animal que quiere comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Product ID del animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito agrega al carrito el animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton agregar al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito confirma la cantidad del producto a comprar y procede con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '5' into Campo cantidad del producto seleccionado
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para actualizar carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito Confirma los productos con la cantidad agregada y procede con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para proceder con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito diligencia la informacion de pago para finalizar la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Drop down list tipo de tarjeta
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Opcion tipo de tarjeta en la lista
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '4440 6542 2541 5245' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '12/2024' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Sebas' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Ruiz' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Calle 1' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Calle 23223' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Itagui' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Los naranjos' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '12345' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Colombia' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para proceder con el pago
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito confirma los datos de facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para confirmar pago
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia visualizar el mensaje de compra exitosa
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then se presenta mensaje compra exitosa
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Compra exitosa mediante el tipo de animal
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en el home del aplicativo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito opens the Pagina principal
+mar 10, 2024 11:19:11 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disk-cache-dir=null,--dis..., goog:chromeOptions: {args: [--disk-cache-dir=null, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --always-authorize-plugins, --disable-extensions, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 11764
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 10, 2024 11:19:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando el decide comprar un animal
+| userId | password | animalType | productId | itemId | quantity | cardType | cardNumber | expiryDate | firstNameBillingAddress | lastNameBillingAddress | addresOneBillingAddress | addresTwoBillingAddress | cityBillingAddress | stateBillingAddress | zipBillingAddress | countryBillingAddress |
+| sebasqvision2 | Todo1199 | DOGS | K9-DL-01 | EST-9 | 1 | American Express | 9999 1111 4444 6666 | 04/2028 | Aristoteles | Marcotulio | Diagonal 20 num 32-33 | Transversal 23 num 11 | Medellin | Robledo | 9999 | Colombia |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa a la pantalla de autenticación
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para ingresar a pantalla de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa los datos de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'sebasqvision2' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Todo1199' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito Selecciona el tipo de animal que quiere comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Botón tipo de animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito selecciona el animal que quiere comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Product ID del animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito agrega al carrito el animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton agregar al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito confirma la cantidad del producto a comprar y procede con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '1' into Campo cantidad del producto seleccionado
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para actualizar carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito Confirma los productos con la cantidad agregada y procede con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para proceder con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito diligencia la informacion de pago para finalizar la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Drop down list tipo de tarjeta
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Opcion tipo de tarjeta en la lista
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '9999 1111 4444 6666' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '04/2028' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Aristoteles' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Marcotulio' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Diagonal 20 num 32-33' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Transversal 23 num 11' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Medellin' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Robledo' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '9999' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Colombia' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para proceder con el pago
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito confirma los datos de facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para confirmar pago
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia visualizar el mensaje de compra exitosa
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then se presenta mensaje compra exitosa
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Compra exitosa mediante el tipo de animal
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en el home del aplicativo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito opens the Pagina principal
+mar 10, 2024 11:19:40 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disk-cache-dir=null,--dis..., goog:chromeOptions: {args: [--disk-cache-dir=null, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --always-authorize-plugins, --disable-extensions, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 13945
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 10, 2024 11:19:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando el decide comprar un animal buscandolo mediante su nombre
+| userId | password | nameAnimal | productId | itemId | quantity | cardType | cardNumber | expiryDate | firstNameBillingAddress | lastNameBillingAddress | addresOneBillingAddress | addresTwoBillingAddress | cityBillingAddress | stateBillingAddress | zipBillingAddress | countryBillingAddress |
+| sebasqvision2 | Todo1199 | Angelfish | FI-SW-01 | EST-2 | 3 | Visa | 4440 6542 2541 5245 | 11/2024 | Arnulfo | Perea Ruiz | Calle 1 | Calle 23223 | Itagui | Los naranjos | 12345 | Colombia |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa a la pantalla de autenticación
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para ingresar a pantalla de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa los datos de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'sebasqvision2' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Todo1199' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito Busca el animal que desea comprar ingresando el nombre del animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Angelfish' into Campo para buscar animal mediante cadena de caracteres
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para buscar animal mediante los caracteres ingresados
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito selecciona el animal que quiere comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Product ID del animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito agrega al carrito el animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton agregar al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito confirma la cantidad del producto a comprar y procede con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '3' into Campo cantidad del producto seleccionado
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para actualizar carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito Confirma los productos con la cantidad agregada y procede con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para proceder con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito diligencia la informacion de pago para finalizar la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Drop down list tipo de tarjeta
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Opcion tipo de tarjeta en la lista
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '4440 6542 2541 5245' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '11/2024' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Arnulfo' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Perea Ruiz' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Calle 1' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Calle 23223' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Itagui' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Los naranjos' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '12345' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Colombia' into Campo ingreso informacion facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para proceder con el pago
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito confirma los datos de facturacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para confirmar pago
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia visualizar el mensaje de compra exitosa
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then se presenta mensaje compra exitosa
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Compra exitosa mediante la busqueda del nombre del animal
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en el home del aplicativo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito opens the Pagina principal
+mar 10, 2024 11:20:11 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disk-cache-dir=null,--dis..., goog:chromeOptions: {args: [--disk-cache-dir=null, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --always-authorize-plugins, --disable-extensions, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 20141
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 10, 2024 11:20:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando el decide agregar una cantidad de cero para el producto seleccionado
+| userId | password | animalType | productId | itemId | quantity |
+| sebasqvision2 | Todo1199 | CATS | FL-DSH-01 | EST-15 | 0 |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa a la pantalla de autenticación
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para ingresar a pantalla de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa los datos de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'sebasqvision2' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Todo1199' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito Selecciona el tipo de animal que quiere comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Botón tipo de animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito selecciona el animal que quiere comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Product ID del animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito agrega al carrito el animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton agregar al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito confirma la cantidad del producto a comprar y procede con la compra
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters '0' into Campo cantidad del producto seleccionado
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para actualizar carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia visualizar el carrito vacio
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then se presenta mensaje carrito vacio
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Compra fallida - agregar una cantidad de 0 productos del animal seleccionado
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en el home del aplicativo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito opens the Pagina principal
+mar 10, 2024 11:20:26 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disk-cache-dir=null,--dis..., goog:chromeOptions: {args: [--disk-cache-dir=null, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --always-authorize-plugins, --disable-extensions, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 48130
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 10, 2024 11:20:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando el decide remover el producto agregado en el carrito de compras
+| userId | password | animalType | productId | itemId |
+| sebasqvision2 | Todo1199 | REPTILES | RP-SN-01 | EST-12 |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa a la pantalla de autenticación
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para ingresar a pantalla de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa los datos de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'sebasqvision2' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Todo1199' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito Selecciona el tipo de animal que quiere comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Botón tipo de animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito selecciona el animal que quiere comprar
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Product ID del animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito agrega al carrito el animal
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton agregar al carrito
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito remueve el producto agregado en el carrito de compras
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para remover producto
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia visualizar el carrito vacio
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then se presenta mensaje carrito vacio
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Remover el producto agregado en el carrito de compras
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>

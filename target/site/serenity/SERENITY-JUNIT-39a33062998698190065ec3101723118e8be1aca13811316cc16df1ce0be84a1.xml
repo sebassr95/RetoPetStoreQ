@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Registro en el aplicativo de PetStore" skipped="0" tests="4" time="83.13" timestamp="2024-03-10 11:20:52"><testcase name="Registro exitoso"/><testcase name="Registro fallido usuario ya existe"/><testcase name="Registro fallido con datos incompletos"/></testsuite>

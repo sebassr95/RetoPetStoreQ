@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Compra en el aplicativo de PetStore","Compra exitosa mediante el tipo de animal","SUCCESS","2024-03-10T11:18:41.568-05:00[America/Bogota]","0.0","58.81"
+"Compra en el aplicativo de PetStore","Compra exitosa mediante la busqueda del nombre del animal","SUCCESS","2024-03-10T11:19:40.382-05:00[America/Bogota]","0.0","31.0"
+"Compra en el aplicativo de PetStore","Compra fallida - agregar una cantidad de 0 productos del animal seleccionado","SUCCESS","2024-03-10T11:20:11.381-05:00[America/Bogota]","0.0","15.33"
+"Compra en el aplicativo de PetStore","Remover el producto agregado en el carrito de compras","SUCCESS","2024-03-10T11:20:26.712-05:00[America/Bogota]","0.0","13.15"

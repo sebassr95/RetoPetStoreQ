@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Autenticacion en el aplicativo de PetStore","Autenticacion exitosa","SUCCESS","2024-03-10T11:17:57.728-05:00[America/Bogota]","0.0","15.07"
+"Autenticacion en el aplicativo de PetStore","Autenticación fallida usuario no existe","SUCCESS","2024-03-10T11:18:12.808-05:00[America/Bogota]","0.0","13.78"
+"Autenticacion en el aplicativo de PetStore","Autenticación fallida clave de usuario incorrecta","SUCCESS","2024-03-10T11:18:26.592-05:00[America/Bogota]","0.0","11.47"

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Autenticacion en el aplicativo de PetStore" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-03-10T16:17:57" hostname="DESKTOP-CIJ4G6F" time="40.124">
+  <properties/>
+  <testcase name="Autenticacion exitosa" classname="Autenticacion en el aplicativo de PetStore" time="14.862"/>
+  <testcase name="Autenticación fallida usuario no existe" classname="Autenticacion en el aplicativo de PetStore" time="13.772"/>
+  <testcase name="Autenticación fallida clave de usuario incorrecta" classname="Autenticacion en el aplicativo de PetStore" time="11.437"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en el home del aplicativo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito opens the Pagina principal
+mar 10, 2024 11:17:58 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disk-cache-dir=null,--dis..., goog:chromeOptions: {args: [--disk-cache-dir=null, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --always-authorize-plugins, --disable-extensions, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 10302
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 10, 2024 11:18:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando el realiza la autenticacion en el aplicativo con datos validos
+| userId | password |
+| sebasqvision | Todo1199 |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa a la pantalla de autenticación
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para ingresar a pantalla de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa los datos de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'sebasqvision' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'Todo1199' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia quedar autenticado en el aplicativo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then se presenta mensaje bienvenida
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Autenticacion exitosa
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en el home del aplicativo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito opens the Pagina principal
+mar 10, 2024 11:18:12 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disk-cache-dir=null,--dis..., goog:chromeOptions: {args: [--disk-cache-dir=null, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --always-authorize-plugins, --disable-extensions, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 3828
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 10, 2024 11:18:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando el realiza la autenticacion en el aplicativo con datos invalidos
+| userId | password |
+| holaqvision | prueba999995 |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa a la pantalla de autenticación
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para ingresar a pantalla de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa los datos de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'holaqvision' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'prueba999995' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia visualizar el mensaje de error
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then se presenta mensaje de error
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Autenticación fallida usuario no existe
+----------------------------------------------------------------------------?[0m
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario se encuentra en el home del aplicativo
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito abrir navegador
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito opens the Pagina principal
+mar 10, 2024 11:18:26 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --disk-cache-dir=null,--dis..., goog:chromeOptions: {args: [--disk-cache-dir=null, --disable-popup-blocking, --disable-download-notifica..., --start-maximized, --test-type, --ignore-certificate-errors, --allow-running-insecure-co..., --always-authorize-plugins, --disable-extensions, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 5470
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 10, 2024 11:18:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando el realiza la autenticacion en el aplicativo con datos invalidos
+| userId | password |
+| sebasqvision | incorrecta123 |
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa a la pantalla de autenticación
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Boton para ingresar a pantalla de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito ingresa los datos de autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'sebasqvision' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito enters 'incorrecta123' into Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Pepito clicks on Campo ingreso autenticacion
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia visualizar el mensaje de error
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then se presenta mensaje de error
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Autenticación fallida clave de usuario incorrecta
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>
