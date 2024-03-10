@@ -15,7 +15,7 @@ Característica: Registro en el aplicativo de PetStore
 
     Ejemplos:
       | userId        | password | confirmarPassword | firstName | lastName | email             | phone | addresOne | addresTwo | city     | state  | zip    | country |
-      | sebasqvision8 | Todo1199 | Todo1199          | Sebas     | Salda    | prueba1@testq.com | 3333  | Calle 1   | Calle 2   | Medellin | Itagui | 055412 | Nueva   |
+      | sebasqvision9 | Todo1199 | Todo1199          | Sebas     | Salda    | prueba1@testq.com | 3333  | Calle 1   | Calle 2   | Medellin | Itagui | 055412 | Nueva   |
 
   @registroFallido
   Esquema del escenario: Registro fallido usuario ya existe
